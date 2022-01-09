@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-589796b7"],{"26c9":function(n,e,t){n.exports=t.p+"img/snorlax.18e4da15.jpeg"},"6d71":function(n,e,t){"use strict";t.r(e);var a=t("7a23"),c=t("26c9"),o=t.n(c),i=Object(a["e"])("h2",null,"This text and Snorlax image are in component that is lazy loaded.",-1),r=Object(a["e"])("img",{src:o.a},null,-1),d=[i,r];function l(n,e){return Object(a["q"])(),Object(a["d"])("div",null,d)}var s=t("6b0d"),u=t.n(s);const p={},b=u()(p,[["render",l]]);e["default"]=b}}]);
+//# sourceMappingURL=chunk-589796b7.2e430180.js.map

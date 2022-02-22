@@ -1,39 +1,43 @@
-# vue
+# Advanced-web-development---project-3
 
-link aplikacije na Heroku: https://web2-vue.herokuapp.com 
+This is a repo of project made as a part of university course.
 
-lista napravljenih stvari:
-- interpolation/one-way binding : da, src/views/DataBind.vue :5
-- two-way binding : da, src/views/DataBind.vue :8 - :9
-- methods : da, src/views/MethodComputed.vue (NAPOMENA: nije primjer za computed iako ime navodi)
-:17 - :22
-- computed properties : da, src/views/DataBind.vue :24 - :28 & :12
-- barem jedan scoped style : da, src/components/HelloWorld.vue :18 - :40
-- koristiti barem jedan lifecycle hook : da, komponenta src/components/Converter.vue :33 - :37 (mounted)
-- routing (više stranica) : da, src/router/index.js  cijeli file
-- use history mode, aplikacija mora biti bookmarkable, tako da rade linkovi (ne samo na root, već i heroku-nesto.com/stranica1 heroku-nesto.com/stranica2) : da, src/router/index.js  :48 - :51
-- dinamičko usmjeravanje s 404 stranicom ("catch all") : da, src/router/index.js :42 -:45, komponenta src/views/page404
-- (barem) dvije komponente
-        -- komponenta bez stanja, koristiti properties : da, komponenta src/components/Book.vue cijeli file, props :8
-        -- komponenta sa stanjem : da, komponenta src/components/Converter.vue :1 - :32
-- barem jedna komponenta mora emitirati barem jedan event : da, komponenta src/components/Child.vue :11
-- store : da, src/store/index.js, view src/views/Store.vue
-- ostvariti asinkrono (lazy, po potrebi) učitavanje nekog dijela aplikacije (stranice ili komponente) 
-: da, src/main.js :6, korištena lazy komponenta src/components/LazyComponent.vue 
+FER - Advanced web development - 3. project
 
-UPUTE ZA PREGLED STRANICE:
-Klikom na gumbe u gornjem dijelu stranice pregledavaju se implementirane stavke navedene u linkovima.
+application link on Heroku: https://web2-vue.herokuapp.com
 
-dinamičko usmjeravanje s 404 stranicom  - upisom bilo kojeg patha koji nije naveden u linkovima, dobiti će te 404 error stranicu i gore vidljive i dalje linkove da se možete vratiti
+list of implemented features in Vue:
+- interpolation / one-way binding: yes, src / views / DataBind.vue: 5
+- two-way binding: yes, src / views / DataBind.vue: 8 -: 9
+- methods: yes, src / views / MethodComputed.vue (NOTE: not an example of computed prop -  name confusion)
+: 17 -: 22
+- computed properties: yes, src / views / DataBind.vue: 24 -: 28 &: 12
+- at least one scoped style: yes, src / components / HelloWorld.vue: 18 -: 40
+- use at least one lifecycle hook: yes, component src / components / Converter.vue: 33 -: 37 (mounted)
+- routing (multiple pages): yes, src / router / index.js whole file
+- use history mode, the application must be bookmarkable, so that links work (not only on root, but also heroku-nesto.com/stranica1 heroku-nesto.com/stranica2): yes, src / router / index.js: 48 - : 51
+- 404 page dynamic routing: yes, src / router / index.js: 42:: 45, src / views / page404 component
+- (at least) two components
+        - component without state, use properties: yes, component src / components / Book.vue whole file, props: 8
+        - component with state: yes, component src / components / Converter.vue: 1 -: 32
+- at least one component must broadcast at least one event: yes, component src / components / Child.vue: 11
+- store: yes, src / store / index.js, view src / views / Store.vue
+- perform asynchronous (lazy, if necessary) loading of some part of the application (pages or components)
+: yes, src / main.js: 6, used lazy component src / components / LazyComponent.vue
 
-Scoped style & Event component & Lazy load comp  - scoped style vidljiv kao komponenta koja je na stranici tekst u ružičastoj boji i slika koja je smanjena, event component  vidljiv kao tekst I want to be updated čijim se pritiskom na gumn Update text, tekst pretvara u Awesome, lazy load - asinkrono učitavanje komponente koja ima tekst i sliku Snorlaxa.
+INSTRUCTIONS FOR VIEWING THE PAGE:
+Clicking on the buttons at the top of the page reviews the implemented items listed in the links.
 
-Data binding - 1 & 2 + Computed prop - Two way data binding može se isprobati tako što se može editati kućica u kojoj piše Type message and see ouput, čime će se automatski updateati i donji prikaz Message is i one way data binding koji promjene može samo prikazivati a unosom u njegovu kućicu ništa se ne mijenja na prethodnoj kućici. Computed properties omogućava prikaz reverzne poruke.
+dynamic routing with a 404 page - typing any path not listed in the links will give you a 404 error page and the links still visible above that you can return to
 
-Methods - klikom na gumb Click to change text to uppercase, mijenja se gornji tekst u upperacse
+Scoped style & Event component & Lazy load comp - scoped style visible as a component that has pink text on the page and a reduced image, event component visible as text I want to be updated by pressing gumn Update text, the text turns into Awesome, lazy load - asynchronous loading of a component that has Snorlax text and image.
 
-Store - vidljivo kao uzimanje i dodavanje 5 pointova 
+Data binding - 1 & 2 + Computed prop - Two way data binding can be tested by editing the box in which it says Type message and see ouput, which will automatically update the bottom view Message is and one way data binding that can change just run and entering it in the box does not change anything on the previous box. Computed properties allows the reverse message to be displayed.
 
-Component with props - vidljiv ispis najdražih knjiga 
+Methods - by clicking the Click to change text to uppercase button, the upper text changes to uppercase
 
-Component stateful & Lifecycle hook - Component stateful vidljiv kao interaktivne kućice koje prikazuju gdje se dodaje i oduzima broj 5, lifecycle hook - vidljvi kao trenutni datum i vrijeme
+Store - visible as taking and adding 5 points
+
+Component with props - visible print of favorite books
+
+Component stateful & Lifecycle hook - Component stateful visible as interactive boxes that show where the number 5 is added and subtracted, lifecycle hook - visible as current date and time

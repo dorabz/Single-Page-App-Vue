@@ -4,7 +4,7 @@ This is a repo of project made as a part of university course.
 
 FER - Advanced web development - 3. project
 
-Theme of project: Vue
+Theme of project: SPA - Vue
 
 application link on Heroku: https://web2-vue.herokuapp.com
 

@@ -4,9 +4,11 @@ This is a repo of project made as a part of university course.
 
 FER - Advanced web development - 3. project
 
+Theme of project: Vue
+
 application link on Heroku: https://web2-vue.herokuapp.com
 
-list of implemented features in Vue:
+list of implemented features:
 - interpolation / one-way binding: yes, src / views / DataBind.vue: 5
 - two-way binding: yes, src / views / DataBind.vue: 8 -: 9
 - methods: yes, src / views / MethodComputed.vue (NOTE: not an example of computed prop -  name confusion)

@@ -1,8 +1,6 @@
-# Advanced-web-development---project-3
+# Single Page App Vue
 
 This is a repo of project made as a part of university course.
-
-FER - Advanced web development - 3. project
 
 Theme of project: SPA - Vue
 
